@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'https://lamppost-frontend-5ko9v5l1y-serena-hall-s-projects.vercel.app',
+  baseURL: 'https://lamppost-api-production.up.railway.app',
 })
 
 // Automatically attach the token to every request
