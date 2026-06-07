@@ -1,8 +1,9 @@
-// API configuration
 import axios from 'axios'
 
+const BASE_URL = 'https://lamppost-api-production.up.railway.app'
+
 const api = axios.create({
-  baseURL: 'https://lamppost-api-production.up.railway.app',
+  baseURL: BASE_URL,
 })
 
 api.interceptors.request.use((config) => {
