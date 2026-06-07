@@ -5,6 +5,7 @@ import Mood from './pages/Mood'
 import Analytics from './pages/Analytics'
 import Skills from './pages/Skills'
 import Login from './pages/Login'
+import Confirm from './pages/Confirm'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/analytics" element={<Analytics />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/confirm" element={<Confirm />} />
       </Routes>
     </div>
   )
