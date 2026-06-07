@@ -11,9 +11,6 @@ api.interceptors.request.use((config) => {
   if (token) {
     config.headers.Authorization = `Bearer ${token}`
   }
-  if (config.url && !config.url.includes('?') && !config.url.endsWith('/')) {
-    config.url = config.url + '/'
-  }
   return config
 })
 
